@@ -43,6 +43,7 @@ export default defineConfig({
           { text: 'localStorage', link: '/sidebar/util/storage.md' },
           { text: 'axios', link: '/sidebar/util/axios.md' },
           { text: 'vuex', link: '/sidebar/util/vuex.md' },
+          { text: 'regex', link: '/sidebar/util/regex.md' },
           { text: 'moment', link: '/sidebar/util/moment.md' }
         ]
       },
