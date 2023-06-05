@@ -56,3 +56,10 @@
 ::-webkit-scrollbar-button {
   /* background-color: cyan; */
 }
+
+.image-bg {
+  width: 400px;
+  height: 400px;
+  filter: blur(80px) !important;
+  background-image: linear-gradient(-45deg, #f56a92 50%, #61c4ec 50%) !important;
+}

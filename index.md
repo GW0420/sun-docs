@@ -3,19 +3,19 @@
 layout: home
 
 hero:
-  name: "sun-title"
-  text: "sun-decription"
+  name: 'sun-title'
+  text: '一个使用 vue3、element-plus 的组件库示例'
   tagline: My great project tagline
   image:
-    src: /style/birds.png
-    alt: /style/birds.png
+    src: /style/logo.svg
+    alt: /style/logo.svg
   actions:
     - theme: brand
       text: ElementPlus
-      link: /sidebar/introduction/index
+      link: /sidebar/study/index
     - theme: alt
       text: ViewDesign
-      link: /sidebar/iview/button
+      link: /sidebar/study/index
 
 features:
   - title: Feature A

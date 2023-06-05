@@ -6,7 +6,7 @@ export default defineConfig({
   title: 'sun-title',
   description: 'sun-decription',
   lastUpdated: true,
-  head: [['link', { rel: 'icon', href: '/style/birds.png' }]],
+  head: [['link', { rel: 'icon', href: '/style/logo.svg' }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     algolia: {
@@ -14,10 +14,10 @@ export default defineConfig({
       apiKey: '...',
       indexName: '...'
     },
-    logo: '/style/birds.png',
+    logo: '/style/logo.svg',
     nav: [
       { text: '首页', link: '/' },
-      { text: '学习笔记', link: '/sidebar/introduction/index.md' }
+      { text: '笔记', link: '/sidebar/study/index.md' }
     ],
     sidebar: [
       {
