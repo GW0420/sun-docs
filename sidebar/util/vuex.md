@@ -7,26 +7,44 @@
 
 # Vuex Module
 
-### 模块化
+### 模块化 modules
 
 Vuex 允许我们将 store 分割成模块（module）。每个模块拥有自己的 state、mutation、action、getter、甚至是嵌套子模块——从上至下进行同样方式的分割：
-
-### index.js
 
 ```js
 import { createStore } from 'vuex'
 import getters from './getters'
-import user from './modules/user'
 
 export default createStore({
   getters,
   modules: {
-    user
+    moduleA,
+    moduleB
+    moduleC
   }
 })
+
+const moduleA = {
+  state: () => ({ ... }),
+  mutations: { ... },
+  actions: { ... },
+}
+
+const moduleB = {
+  state: () => ({ ... }),
+  mutations: { ... },
+  actions: { ... }
+}
+
+const moduleC = {
+  state: () => ({ ... }),
+  mutations: { ... },
+  actions: { ... },
+}
+
 ```
 
-### getters
+### 快捷访问 getters
 
 ```js
 /**
@@ -48,27 +66,6 @@ const getters = {
 }
 
 export default getterss
-```
-
-### modules/user
-
-```js
-export default {
-  namespaced: true,
-  state: () => ({
-    token: ''
-  }),
-  mutations: {
-    setToken(state, token) {
-      state.token = token
-    }
-  },
-  actions: {
-    getToken(context, data) {
-      context.commit('setToken', data)
-    }
-  }
-}
 ```
 
 ### 代码示例

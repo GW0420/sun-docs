@@ -39,12 +39,11 @@ export default defineConfig({
         text: '工具函数',
         collapsed: true,
         items: [
+          { text: '常用函数', link: '/sidebar/util/index.md' },
           { text: 'localStorage', link: '/sidebar/util/storage.md' },
           { text: 'axios', link: '/sidebar/util/axios.md' },
           { text: 'vuex', link: '/sidebar/util/vuex.md' },
-          { text: 'moment', link: '/sidebar/util/moment.md' },
-          { text: 'excel', link: '/sidebar/util/excel.md' },
-          { text: '数组去重', link: '/sidebar/util/uniqueArr.md' }
+          { text: 'moment', link: '/sidebar/util/moment.md' }
         ]
       },
       {
