@@ -1,3 +1,9 @@
+/*
+ * @Author: Michael
+ * @Date: 2023-06-05 09:55:56
+ * @Description:
+ * @FilePath: \sun-docs\.vitepress\config.js
+ */
 import { defineConfig } from 'vitepress'
 import { componentPreview, containerPreview } from '@vitepress-demo-preview/plugin'
 
@@ -9,6 +15,7 @@ export default defineConfig({
   head: [['link', { rel: 'icon', href: '/style/logo.svg' }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    outline: [2, 6],
     algolia: {
       appId: '...',
       apiKey: '...',
@@ -31,7 +38,14 @@ export default defineConfig({
       {
         text: '工具函数',
         collapsed: true,
-        items: [{ text: '加载中...', link: '/sidebar/util/index.md' }]
+        items: [
+          { text: 'localStorage', link: '/sidebar/util/storage.md' },
+          { text: 'axios', link: '/sidebar/util/axios.md' },
+          { text: 'vuex', link: '/sidebar/util/vuex.md' },
+          { text: 'moment', link: '/sidebar/util/moment.md' },
+          { text: 'excel', link: '/sidebar/util/excel.md' },
+          { text: '数组去重', link: '/sidebar/util/uniqueArr.md' }
+        ]
       },
       {
         text: '面试笔记',
