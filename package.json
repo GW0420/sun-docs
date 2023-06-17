@@ -5,6 +5,7 @@
   "license": "MIT",
   "dependencies": {
     "element-plus": "^2.3.1",
+    "sass": "^1.63.4",
     "vitepress": "^1.0.0-alpha.63",
     "vitepress-demoblock": "^1.0.4"
   },
