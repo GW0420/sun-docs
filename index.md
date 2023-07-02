@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: 'sun-title'
-  text: '一个使用 vue3 的组件库示例'
+  name: "sun-title"
+  text: "一个使用 vue3 的组件库示例"
   tagline: My great project tagline
   image:
     src: /style/logo.svg
@@ -12,10 +12,10 @@ hero:
   actions:
     - theme: brand
       text: 开始
-      link: /sidebar/study/index
+      link: /sidebar/component/universalForm.md
     - theme: alt
       text: 掘金主页
-      link: /sidebar/study/index
+      link: /sidebar/component/universalForm.md
 
 features:
   - icon: 🛠️

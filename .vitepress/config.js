@@ -24,13 +24,18 @@ export default defineConfig({
     logo: "/style/logo.svg",
     nav: [
       { text: "首页", link: "/" },
-      { text: "笔记", link: "/sidebar/study/index.md" }
+      { text: "笔记", link: "/sidebar/component/universalForm.md" }
     ],
     sidebar: [
       {
         text: "组件封装",
         // collapsed: true,
-        items: [{ text: "form", link: "/sidebar/component/form.md" }]
+        items: [
+          { text: "通用表单组件", link: "/sidebar/component/universalForm.md" },
+          { text: "表格组件", link: "/sidebar/component/table.md" },
+          { text: "弹窗组件", link: "/sidebar/component/modal.md" },
+          { text: "提交表单组件", link: "/sidebar/component/submitForm.md" }
+        ]
       },
       {
         text: "工具函数",
