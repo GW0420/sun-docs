@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: "sun-title"
-  text: "一个使用 vue3 的组件库示例"
+  name: "sun"
+  text: "顾顾顾大神的学习笔记"
   tagline: My great project tagline
   image:
     src: /style/logo.svg

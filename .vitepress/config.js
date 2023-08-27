@@ -53,7 +53,12 @@ export default defineConfig({
       {
         text: "面试笔记",
         // collapsed: true,
-        items: [{ text: "加载中...", link: "/sidebar/study/index.md" }]
+        items: [
+          { text: "HTML", link: "/sidebar/study/html-css.md" },
+          { text: "JavaScript", link: "/sidebar/study/js.md" },
+          { text: "网络编程", link: "/sidebar/study/axios.md" },
+          { text: "Vue", link: "/sidebar/study/vue.md" }
+        ]
       }
     ],
     editLink: {
