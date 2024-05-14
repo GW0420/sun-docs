@@ -13,7 +13,7 @@ git init
 
 git add -A
 
-git commit -m "gitee 自动化部署"
+git commit -m "github 自动化部署"
 
 git push -f git@github.com:GW0420/sun-docs.git master:gh-pages
 
