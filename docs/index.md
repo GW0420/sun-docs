@@ -3,19 +3,19 @@
 layout: home
 
 hero:
-  name: "sun-hooks"
-  text: "一个使用 vue3、vite 的组件库示例"
-  tagline: "愿世间所有美好，都恰逢其时，幸运都奔向你"
+  name: 'sun-hooks'
+  text: '一个使用 vue3、vite 的组件库示例'
+  tagline: '愿世间所有美好，都恰逢其时，幸运都奔向你'
   image:
-    src: "./logo.svg"
-    alt: "这是一个logo"
+    src: './logo.svg'
+    alt: '这是一个logo'
   actions:
     - theme: brand
       text: 快速开始
       link: /sidebar/introduce/index.md
     - theme: alt
       text: 后台演示地址
-      link: https://li-li-liming.gitee.io/sun-admin/#/login
+      link: https://gw0420.github.io/sun-admin/
 
 features:
   - icon: 📝
