@@ -1,0 +1,23 @@
+{
+  "name": "sun-docs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "element-plus": "^2.3.1",
+    "sass": "^1.63.4",
+    "vitepress": "^1.0.0-alpha.63"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "@element-plus/icons-vue": "^2.1.0",
+    "@gw0420/hooks": "^1.0.98",
+    "@vitepress-demo-preview/component": "^2.3.2",
+    "@vitepress-demo-preview/plugin": "^1.2.2"
+  }
+}
