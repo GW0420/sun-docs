@@ -1,0 +1,84 @@
+:root {
+  /* 标题 */
+  /* --vp-home-hero-name-color: #409eff;
+  --vp-home-hero-name-background: linear-gradient(#409eff 100%); */
+
+  /* 图标背景 */
+  --vp-home-hero-image-background-image: linear-gradient(-45deg, #f56a92 50%, #61c4ec 50%);
+  --vp-home-hero-image-filter: blur(56px);
+
+  /* brand按钮 */
+  /* --vp-button-brand-border: #409eff;
+  --vp-button-brand-text: #fff;
+  --vp-button-brand-bg: #409eff;
+
+  --vp-button-brand-hover-border: #4a119e;
+  --vp-button-brand-hover-text: rgb(216, 216, 216);
+  --vp-button-brand-hover-bg: #4a119e;
+
+  --vp-button-brand-active-border: #fff; */
+
+  /* 主题基色 */
+  /* --vp-c-brand: #409eff;
+  --vp-c-brand-light: #409eff;
+  --vp-c-brand-dark: #409eff; */
+
+  /* 代码块背景色 */
+  /* --vp-code-block-bg: -webkit-linear-gradient(120deg, #bd34fe, #41d1ff); */
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #bd34fe, #41d1ff);
+}
+
+/*定义滚动条宽高及背景，宽高分别对应横竖滚动条的尺寸*/
+::-webkit-scrollbar {
+  width: 7px; /*对垂直流动条有效*/
+  height: 7px; /*对水平流动条有效*/
+}
+
+/*定义滚动条的轨道颜色、内阴影及圆角*/
+::-webkit-scrollbar-track {
+  border-radius: 4px;
+  /* -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3); */
+  /* background-color: rosybrown; */
+}
+
+/*定义滑块颜色、内阴影及圆角*/
+::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background-color: #dddee0;
+  /* -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3); */
+}
+
+/*定义滑块悬停变化颜色、内阴影及圆角*/
+::-webkit-scrollbar-thumb:hover {
+  background-color: #c7c9cc;
+}
+
+/*定义两端按钮的样式*/
+::-webkit-scrollbar-button {
+  /* background-color: cyan; */
+}
+
+/* .image-bg {
+  width: 400px;
+  height: 400px;
+  filter: blur(80px) !important;
+  background-image: linear-gradient(-45deg, #f56a92 50%, #61c4ec 50%) !important;
+} */
+
+.vp-doc table {
+  margin: 0 !important;
+  /* border-collapse: initial; */
+}
+
+.vp-doc tr:nth-child(2n) {
+  background-color: #fff;
+}
+
+.el-table__inner-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border-right: 1px solid #ebeef5;
+}
